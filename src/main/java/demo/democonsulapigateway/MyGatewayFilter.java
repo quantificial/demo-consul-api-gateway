@@ -31,6 +31,7 @@ public class MyGatewayFilter extends ZuulFilter {
             ctx.setResponseBody("token is null!");
             return null;
         }
+        
      return null;
 	}
 
