@@ -6,6 +6,10 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 
+/**
+ * gateway filter
+ *
+ */
 public class MyGatewayFilter extends ZuulFilter {
 
 	@Override
